@@ -21,7 +21,7 @@
 				<p class="review reviewgo">Genero	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : &nbsp;&nbsp; Animacion, Accion, Comedia</p>
 				<p class="review">Lanzamiento &nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;&nbsp; 7 November 2016</p>
 				<p class="special">El vínculo especial que se desarrolla entre el robot inflable más grande Baymax y el prodigio Hiro Hamada, que se unen con un grupo de amigos para formar una banda de héroes de alta tecnología.</p>
-				<a class="video" href="#"><i class="video1"></i>Mirar TRAILER</a>
+				<a class="video" href="#"><i class="video1"></i>Trailer</a>
 				<a class="book" href="#"><i class="book1"></i>Boletos</a>
 			</div>
 		</div>
