@@ -24,4 +24,6 @@
 			</tbody>
 		@endforeach
 	</table>
-	@endsection
+
+	{!!$users->render()!!}
+	@endsection	}
