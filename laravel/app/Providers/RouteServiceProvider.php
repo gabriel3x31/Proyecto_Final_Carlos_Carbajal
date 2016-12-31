@@ -1,4 +1,4 @@
-<?php namespace Restaurante\Providers;
+<?php namespace Cinema\Providers;
 
 use Illuminate\Routing\Router;
 use Illuminate\Foundation\Support\Providers\RouteServiceProvider as ServiceProvider;
@@ -12,7 +12,7 @@ class RouteServiceProvider extends ServiceProvider {
 	 *
 	 * @var string
 	 */
-	protected $namespace = 'Restaurante\Http\Controllers';
+	protected $namespace = 'Cinema\Http\Controllers';
 
 	/**
 	 * Define your route model bindings, pattern filters, etc.

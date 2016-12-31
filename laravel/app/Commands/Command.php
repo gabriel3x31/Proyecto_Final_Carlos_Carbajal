@@ -1,4 +1,4 @@
-<?php namespace Restaurante\Commands;
+<?php namespace Cinema\Commands;
 
 abstract class Command {
 

@@ -1,4 +1,4 @@
-<?php namespace Restaurante\Http\Requests;
+<?php namespace Cinema\Http\Requests;
 
 use Illuminate\Foundation\Http\FormRequest;
 

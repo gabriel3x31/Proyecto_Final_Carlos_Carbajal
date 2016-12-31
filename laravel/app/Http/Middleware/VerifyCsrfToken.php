@@ -1,4 +1,4 @@
-<?php namespace Restaurante\Http\Middleware;
+<?php namespace Cinema\Http\Middleware;
 
 use Closure;
 use Illuminate\Foundation\Http\Middleware\VerifyCsrfToken as BaseVerifier;

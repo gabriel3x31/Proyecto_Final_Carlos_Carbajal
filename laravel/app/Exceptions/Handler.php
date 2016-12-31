@@ -1,4 +1,4 @@
-<?php namespace Restaurante\Exceptions;
+<?php namespace Cinema\Exceptions;
 
 use Exception;
 use Illuminate\Foundation\Exceptions\Handler as ExceptionHandler;

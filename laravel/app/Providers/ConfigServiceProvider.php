@@ -1,4 +1,4 @@
-<?php namespace Restaurante\Providers;
+<?php namespace Cinema\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

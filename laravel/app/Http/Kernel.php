@@ -1,4 +1,4 @@
-<?php namespace Restaurante\Http;
+<?php namespace Cinema\Http;
 
 use Illuminate\Foundation\Http\Kernel as HttpKernel;
 
@@ -15,7 +15,7 @@ class Kernel extends HttpKernel {
 		'Illuminate\Cookie\Middleware\AddQueuedCookiesToResponse',
 		'Illuminate\Session\Middleware\StartSession',
 		'Illuminate\View\Middleware\ShareErrorsFromSession',
-		'Restaurante\Http\Middleware\VerifyCsrfToken',
+		'Cinema\Http\Middleware\VerifyCsrfToken',
 	];
 
 	/**
@@ -24,9 +24,9 @@ class Kernel extends HttpKernel {
 	 * @var array
 	 */
 	protected $routeMiddleware = [
-		'auth' => 'Restaurante\Http\Middleware\Authenticate',
+		'auth' => 'Cinema\Http\Middleware\Authenticate',
 		'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
-		'guest' => 'Restaurante\Http\Middleware\RedirectIfAuthenticated',
+		'guest' => 'Cinema\Http\Middleware\RedirectIfAuthenticated',
 	];
 
 }

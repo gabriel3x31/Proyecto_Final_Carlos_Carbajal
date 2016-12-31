@@ -1,4 +1,4 @@
-<?php namespace Restaurante\Events;
+<?php namespace Cinema\Events;
 
 abstract class Event {
 

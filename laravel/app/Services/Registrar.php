@@ -1,6 +1,6 @@
-<?php namespace Restaurante\Services;
+<?php namespace Cinema\Services;
 
-use Restaurante\User;
+use Cinema\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 

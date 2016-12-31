@@ -1,6 +1,6 @@
-<?php namespace Restaurante\Http\Controllers\Auth;
+<?php namespace Cinema\Http\Controllers\Auth;
 
-use Restaurante\Http\Controllers\Controller;
+use Cinema\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\PasswordBroker;
 use Illuminate\Foundation\Auth\ResetsPasswords;

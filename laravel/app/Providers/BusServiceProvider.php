@@ -1,4 +1,4 @@
-<?php namespace Restaurante\Providers;
+<?php namespace Cinema\Providers;
 
 use Illuminate\Bus\Dispatcher;
 use Illuminate\Support\ServiceProvider;
@@ -16,7 +16,7 @@ class BusServiceProvider extends ServiceProvider {
 		$dispatcher->mapUsing(function($command)
 		{
 			return Dispatcher::simpleMapping(
-				$command, 'Restaurante\Commands', 'Restaurante\Handlers\Commands'
+				$command, 'Cinema\Commands', 'Cinema\Handlers\Commands'
 			);
 		});
 	}
