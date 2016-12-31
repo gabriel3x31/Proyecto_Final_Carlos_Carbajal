@@ -87,6 +87,8 @@ class ControlaUsuario extends Controller
      */
     public function destroy($id)
     {
-        //
+        User::destroy($id);
+        Session::flash('message','Usuario Eliminado Correctamente');
+        return Redirect::to('/usuario');
     }
 }
