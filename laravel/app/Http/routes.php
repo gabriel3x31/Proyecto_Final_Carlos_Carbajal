@@ -11,7 +11,7 @@
 |
 */
 
-Route::resource('/', 'FrontController@index');
-Route::resource('/', 'FrontController@contacto');
-Route::resource('/', 'FrontController@reviews')
-
+Route::get('/', 'FrontController@index');
+Route::get('contacto', 'FrontController@contacto');
+Route::get('reviews', 'FrontController@reviews');
+Route::get('admin', 'FrontController@admin');
