@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace Restaurante\Http\Controllers;
 
 class HomeController extends Controller {
 
