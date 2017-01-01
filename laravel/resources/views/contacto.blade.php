@@ -4,7 +4,7 @@
 			<div class="top-header span_top">
 				<div class="logo">
 					<a href="index.html"><img src="images/logo.png" alt="" /></a>
-					<p>MoviesCiencias</p>
+					<p>Cine Ciencias</p>
 				</div>
 				<div class="search v-search">
 					<form>
@@ -27,7 +27,7 @@
 				  </div>
 				  <div class="col-md-6 contact-right">
 					 <textarea placeholder="Message"></textarea>
-					 <input type="submit" value="SEND"/>
+					 <input type="submit" value="Enviar"/>
 				 </div>
 				 <div class="clearfix"></div>
 			 </form>

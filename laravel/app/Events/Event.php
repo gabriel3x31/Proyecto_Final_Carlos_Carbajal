@@ -1,7 +1,8 @@
-<?php namespace Cinema\Events;
+<?php
 
-abstract class Event {
+namespace Cinema\Events;
 
-	//
-
+abstract class Event
+{
+    //
 }

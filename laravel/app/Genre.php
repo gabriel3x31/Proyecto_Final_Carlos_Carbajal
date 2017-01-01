@@ -4,7 +4,7 @@ namespace Cinema;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Movie extends Model
+class Genre extends Model
 {
-    protected $table = "movies";
+    protected $table = "genres";
 }

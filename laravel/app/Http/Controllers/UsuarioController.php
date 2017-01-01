@@ -4,10 +4,23 @@ namespace Cinema\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Cinema\Http\Requests;
+use Cinema\Http\Requests\UserCreateRequest;
+use Cinema\Http\Requests\UserUpdateRequest;
 use Cinema\Http\Controllers\Controller;
-
-class MovieController extends Controller
+use Cinema\User;
+use Session;
+use Redirect;
+use Illuminate\Routing\Route;
+class UsuarioController extends Controller
 {
+    public function __construct(){
+        $this->beforeFilter('@find',['only' => ['edit','update','destroy']]);
+    }
+
+    public function find(Route $route){
+        $this->user = User::find($route->getParameter('usuario'));
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -15,7 +28,8 @@ class MovieController extends Controller
      */
     public function index()
     {
-        return "Estoy en el index";
+        $users = User::paginate(2);
+        return view('usuario.index',compact('users'));
     }
 
     /**
@@ -25,7 +39,7 @@ class MovieController extends Controller
      */
     public function create()
     {
-        return "Esto seria el formulario para crear";
+        return view('usuario.create');
     }
 
     /**
@@ -34,9 +48,11 @@ class MovieController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(UserCreateRequest $request)
     {
-        //
+        User::create($request->all());
+        Session::flash('message','Usuario Creado Correctamente');
+        return Redirect::to('/usuario');
     }
 
     /**
@@ -58,7 +74,7 @@ class MovieController extends Controller
      */
     public function edit($id)
     {
-        //
+        return view('usuario.edit',['user'=>$this->user]);
     }
 
     /**
@@ -68,9 +84,12 @@ class MovieController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(UserUpdateRequest $request, $id)
     {
-        //
+        $this->user->fill($request->all());
+        $this->user->save();
+        Session::flash('message','Usuario Actualizado Correctamente');
+        return Redirect::to('/usuario');
     }
 
     /**
@@ -81,6 +100,8 @@ class MovieController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $this->user->delete();
+        Session::flash('message','Usuario Eliminado Correctamente');
+        return Redirect::to('/usuario');
     }
 }

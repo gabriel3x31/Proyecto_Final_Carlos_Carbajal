@@ -4,7 +4,7 @@
 			<div class="top-header span_top">
 				<div class="logo">
 					<a href="index.html"><img src="images/logo.png" alt="" /></a>
-					<p>MovieCiencias</p>
+					<p>Cine Ciencias</p>
 				</div>
 				<div class="search v-search">
 					<form>
@@ -22,11 +22,11 @@
 								<a href="single.html"><img src="images/r4.jpg" alt="" /></a>
 							</div>
 							<div class="review-info">
-								<a class="span" href="single.html">Lorem  <i>MovieCiencias</i></a>
-								<p class="info">Reparto:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will Smith, Margot Robbie, Adrian Martinez, Rodrigo Santoro, BD Wong, Robert Taylor</p>
-								<p class="info">DIRECCION: &nbsp;&nbsp;&nbsp;&nbsp;Glenn Ficarra, John Requa</p>
-								<p class="info">GENERO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crimen</p>
-								<p class="info">DURACION:&nbsp;&nbsp;&nbsp; &nbsp; 1 hora 45 minutos</p>
+								<a class="span" href="single.html">Lorem  <i>Movie Review</i></a>
+								<p class="info">CAST:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will Smith, Margot Robbie, Adrian Martinez, Rodrigo Santoro, BD Wong, Robert Taylor</p>
+								<p class="info">DIRECTION: &nbsp;&nbsp;&nbsp;&nbsp;Glenn Ficarra, John Requa</p>
+								<p class="info">GENRE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crime</p>
+								<p class="info">DURATION:&nbsp;&nbsp;&nbsp; &nbsp; 1 hour 45 minutes</p>
 							</div>
 
 							<div class="clearfix"></div>
@@ -40,10 +40,10 @@
 							<div class="review-info">
 								<a class="span" href="single.html">Lorem  <i>Movie Review</i></a>
 								
-								<p class="info">Reparto:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will Smith, Margot Robbie, Adrian Martinez, Rodrigo Santoro, BD Wong, Robert Taylor</p>
-								<p class="info">DIRECCION: &nbsp;&nbsp;&nbsp;&nbsp;Glenn Ficarra, John Requa</p>
-								<p class="info">GENERO:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crimen</p>
-								<p class="info">DURACION:&nbsp;&nbsp;&nbsp; &nbsp; 1 hora 45 minutos</p>
+								<p class="info">CAST:&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Will Smith, Margot Robbie, Adrian Martinez, Rodrigo Santoro, BD Wong, Robert Taylor</p>
+								<p class="info">DIRECTION: &nbsp;&nbsp;&nbsp;&nbsp;Glenn Ficarra, John Requa</p>
+								<p class="info">GENRE:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Crime</p>
+								<p class="info">DURATION:&nbsp;&nbsp;&nbsp; &nbsp; 1 hour 45 minutes</p>
 							</div>
 							<div class="clearfix"></div>
 						</div>
